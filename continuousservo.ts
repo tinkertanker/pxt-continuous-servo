@@ -35,7 +35,7 @@ namespace ContinuousServo {
     //% block="spin one way pin %pin | with speed %speed"
     //% speed.min=0 speed.max=100
     export function spin_one_way_with_speed(pin: AnalogPin, speed: number): void {
-      spin = (speed / 100 * 90) + 90
+      let spin = (speed / 100 * 90) + 90
       pins.servoWritePin(pin, spin)
     }
 
@@ -48,7 +48,7 @@ namespace ContinuousServo {
     //% block="spin other way pin %pin | with speed %speed"
     //% speed.min=0 speed.max=100
     export function spin_other_way_with_speed(pin: AnalogPin, speed: number): void {
-      spin = 90 - (speed / 100 * 90)
+      let spin = 90 - (speed / 100 * 90)
       pins.servoWritePin(pin, spin)
     }
 
@@ -58,7 +58,7 @@ namespace ContinuousServo {
     */
     //% blockId=turn_off_motor weight=20
     //% block="turn off motor at pin %pin"
-    export function turn_off_motor(pin: AnalogPin): void {
+    export function turn_off_motor(pin: DigitalPin): void {
       pins.digitalWritePin(pin, 0)
     }
 
