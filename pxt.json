@@ -1,6 +1,6 @@
 {
     "name": "ContinuousServo",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Package for continuous servos",
     "license": "MIT",
     "dependencies": {
