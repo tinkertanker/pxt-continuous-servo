@@ -14,5 +14,5 @@
         "tests.ts"
     ],
     "public": true,
-    "installedVersion": "github:tinkertanker/pxt-continuous-servo#v0.0.1"
+    "installedVersion": "github:tinkertanker/pxt-continuous-servo#v0.0.2"
 }
