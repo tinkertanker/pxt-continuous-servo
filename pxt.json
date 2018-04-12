@@ -1,0 +1,18 @@
+{
+    "name": "ContinuousServo",
+    "version": "0.0.1",
+    "description": "Package for continuous servos",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "continuousservo.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true,
+    "installedVersion": "github:tinkertanker/pxt-continuous-servo#v0.0.1"
+}
